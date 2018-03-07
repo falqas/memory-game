@@ -1,15 +1,17 @@
 body {
     text-align: center;
+    margin: 0;
     }
 
     a:link, a:visited {
         text-decoration: none;
         color: inherit;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .title {
         font-family: 'Raleway';
-        color: #0D2C40;
         letter-spacing: 1px;
         font-weight: 400;
         font-size: 45px;
@@ -18,7 +20,6 @@ body {
 
     .menu {
         font-family: 'Raleway';
-        color: #F15B31;
         letter-spacing: 1px;
         font-weight: 600;
         font-size: 18px;
@@ -38,4 +39,30 @@ body {
         font-family: 'Droid Serif';
         line-height: 26px;
         font-size: 18px;
-    } 
+    }
+
+    header {
+        background-color: #F15B31;
+        color: #FFFFFF;
+        padding: 30px 20px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    nav {
+        background-color: #00A6B3;
+        color: #FFFFFF;
+        padding: 20px 0px 20px 0px;
+
+    }
+
+    main {
+        width: 850px;
+        margin: 35px auto;
+    }
+
+    img {
+        margin: 40px 8px;
+    }
